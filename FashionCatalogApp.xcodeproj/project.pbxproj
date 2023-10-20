@@ -15,6 +15,7 @@
 		AAFBA9FA2AE2FBBA00B9994E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFBA9F82AE2FBBA00B9994E /* LaunchScreen.storyboard */; };
 		AAFBAA022AE2FC9F00B9994E /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBAA012AE2FC9F00B9994E /* ClothingItem.swift */; };
 		AAFBAA042AE2FE7A00B9994E /* ClothesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBAA032AE2FE7A00B9994E /* ClothesTableViewCell.swift */; };
+		AAFBAA062AE316EF00B9994E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBAA052AE316EF00B9994E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AAFBA9FB2AE2FBBA00B9994E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAFBAA012AE2FC9F00B9994E /* ClothingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
 		AAFBAA032AE2FE7A00B9994E /* ClothesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesTableViewCell.swift; sourceTree = "<group>"; };
+		AAFBAA052AE316EF00B9994E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				AAFBAA032AE2FE7A00B9994E /* ClothesTableViewCell.swift */,
+				AAFBAA052AE316EF00B9994E /* DetailViewController.swift */,
 				AAFBA9ED2AE2FBB800B9994E /* AppDelegate.swift */,
 				AAFBA9EF2AE2FBB800B9994E /* SceneDelegate.swift */,
 				AAFBA9F12AE2FBB800B9994E /* ViewController.swift */,
@@ -147,6 +150,7 @@
 				AAFBAA042AE2FE7A00B9994E /* ClothesTableViewCell.swift in Sources */,
 				AAFBAA022AE2FC9F00B9994E /* ClothingItem.swift in Sources */,
 				AAFBA9F22AE2FBB800B9994E /* ViewController.swift in Sources */,
+				AAFBAA062AE316EF00B9994E /* DetailViewController.swift in Sources */,
 				AAFBA9EE2AE2FBB800B9994E /* AppDelegate.swift in Sources */,
 				AAFBA9F02AE2FBB800B9994E /* SceneDelegate.swift in Sources */,
 			);

@@ -7,10 +7,10 @@
 
 import Foundation
 struct ClothingItem {
-    var name: String
-    var price: Double
-    var description: String
-    var category: String
-    var isNew: String
-    var image: String
+    let name: String
+    let price: Double
+    let description: String
+    let category: String
+    let isNew: String
+    let image: String
 }

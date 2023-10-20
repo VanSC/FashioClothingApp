@@ -36,12 +36,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
-        performSegue(withIdentifier: "segue", sender: nil)
+        let selectedClothingItem = clothes[indexPath.row]
+            performSegue(withIdentifier: "segue", sender: selectedClothingItem)
+
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if segue.identifier == "segue", let selectedClothingItem = sender as? ClothingItem, let destinationVC = segue.destination as? DetailViewController {
+                    // Pasa los datos del elemento seleccionado al controlador de detalles
+                    destinationVC.selectedClothingItem = selectedClothingItem
+                }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
