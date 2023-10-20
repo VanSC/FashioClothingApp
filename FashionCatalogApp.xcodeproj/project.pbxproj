@@ -13,6 +13,8 @@
 		AAFBA9F52AE2FBB800B9994E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFBA9F32AE2FBB800B9994E /* Main.storyboard */; };
 		AAFBA9F72AE2FBBA00B9994E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFBA9F62AE2FBBA00B9994E /* Assets.xcassets */; };
 		AAFBA9FA2AE2FBBA00B9994E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFBA9F82AE2FBBA00B9994E /* LaunchScreen.storyboard */; };
+		AAFBAA022AE2FC9F00B9994E /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBAA012AE2FC9F00B9994E /* ClothingItem.swift */; };
+		AAFBAA042AE2FE7A00B9994E /* ClothesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBAA032AE2FE7A00B9994E /* ClothesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AAFBA9F62AE2FBBA00B9994E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAFBA9F92AE2FBBA00B9994E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAFBA9FB2AE2FBBA00B9994E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFBAA012AE2FC9F00B9994E /* ClothingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
+		AAFBAA032AE2FE7A00B9994E /* ClothesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		AAFBA9EC2AE2FBB800B9994E /* FashionCatalogApp */ = {
 			isa = PBXGroup;
 			children = (
+				AAFBAA032AE2FE7A00B9994E /* ClothesTableViewCell.swift */,
 				AAFBA9ED2AE2FBB800B9994E /* AppDelegate.swift */,
 				AAFBA9EF2AE2FBB800B9994E /* SceneDelegate.swift */,
 				AAFBA9F12AE2FBB800B9994E /* ViewController.swift */,
 				AAFBA9F32AE2FBB800B9994E /* Main.storyboard */,
+				AAFBAA012AE2FC9F00B9994E /* ClothingItem.swift */,
 				AAFBA9F62AE2FBBA00B9994E /* Assets.xcassets */,
 				AAFBA9F82AE2FBBA00B9994E /* LaunchScreen.storyboard */,
 				AAFBA9FB2AE2FBBA00B9994E /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFBAA042AE2FE7A00B9994E /* ClothesTableViewCell.swift in Sources */,
+				AAFBAA022AE2FC9F00B9994E /* ClothingItem.swift in Sources */,
 				AAFBA9F22AE2FBB800B9994E /* ViewController.swift in Sources */,
 				AAFBA9EE2AE2FBB800B9994E /* AppDelegate.swift in Sources */,
 				AAFBA9F02AE2FBB800B9994E /* SceneDelegate.swift in Sources */,
